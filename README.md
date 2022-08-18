@@ -2,23 +2,23 @@
 JavaScript Web Scraping
 
 
-```javascript
+```bash
 npm init -y
 ```
 
-```javascript
+```bash
 npm install axios
 ```
 
-```javascript
+```bash
 npm install axios cheerio json2csv
 ```
 
-```javascript
+```css
 #content_inner > article > div.row > div.col-sm-6.product_main > h1
 ```
 
-```javascript
+```css
 h1
 ```
 
@@ -116,7 +116,7 @@ async function getBooks(url) {
 getBooks(mystery);
 ```
 
-```javascript
+```bash
 node books.js
 ```
 
@@ -131,7 +131,7 @@ if ($(".next a").length > 0) {
 const baseUrl ="http://books.toscrape.com/catalogue/category/books/mystery_3/"
 ```
 
-```javascript
+```bash
 npm install json2csv
 ```
 
@@ -189,7 +189,7 @@ async function getBooks(url) {
 getBooks(mystery);
 ```
 
-```javascript
+```bash
 node books.js
 ```
 
